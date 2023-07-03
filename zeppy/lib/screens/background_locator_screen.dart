@@ -212,7 +212,9 @@ class _BackgroundLocatorScreenState extends State<BackgroundLocatorScreen> {
         initDataCallback: data,
         disposeCallback: LocationCallbackHandler.disposeCallback,
         iosSettings: const IOSSettings(
-            accuracy: LocationAccuracy.NAVIGATION, distanceFilter: 0),
+            accuracy: LocationAccuracy.NAVIGATION,
+            distanceFilter: 0,
+            stopWithTerminate: true),
         autoStop: false,
         androidSettings: const AndroidSettings(
             accuracy: LocationAccuracy.NAVIGATION,
