@@ -49,13 +49,15 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>location needed</string>
-	<key>NSLoctionAlwaysUsageDescription</key>
-	<string>location needed</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>location needed (always) (not use?)</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>location needed (always or running)</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>location needed (when running)</string>
+	<key>NSLocationUsageDescription</key>
 	<string>location needed</string>
 </dict>
 </plist>
